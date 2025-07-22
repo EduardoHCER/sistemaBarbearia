@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Agendamento - Barbearia Style</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+     <h1>Agende seu Horário</h1>
+
+     <div id="passo1" class="passo">
+         <h2>1. Escolha o serviço</h2>
+         <div id="lista-servicos" class="lista-opcoes">
+             </div>
+     </div>
+
+     <div id="passo2" class="passo hidden">
+         <h2>2. Escolha o barbeiro</h2>
+         <div id="lista-barbeiros" class="lista-opcoes">
+             </div>
+     </div>
+
+     <div id="passo3" class="passo hidden">
+         <h2>3. Escolha a data e o horário</h2>
+         <input type="date" id="data-agendamento">
+         <div id="lista-horarios" class="lista-opcoes">
+             </div>
+     </div>
+
+     <div id="passo4" class="passo hidden">
+         <h2>4. Confirme seus dados</h2>
+         <div id="resumo-agendamento"></div>
+         <input type="text" id="nome-cliente" placeholder="Digite seu nome completo">
+         <button id="btn-confirmar">Confirmar Agendamento</button>
+     </div>
+
+     <div id="confirmacao-final" class="hidden">
+         <h2>Agendamento Confirmado!</h2>
+         <p>Obrigado por agendar conosco. Te esperamos!</p>
+     </div>
+ </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
