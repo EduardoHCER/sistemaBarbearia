@@ -23,8 +23,9 @@ app.get('*', async (req, res) => {
     }
 
     try {
+        // NOVA LINHA (CORRIGIDA)
         const db = await open({
-            filename: path.resolve(process.cwd(), 'barbearia.db'),
+            filename: path.join(__dirname, 'barbearia.db'), // <-- NOVA LINHA
             driver: sqlite3.Database
         });
 
