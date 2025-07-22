@@ -62,4 +62,45 @@ As seguintes ferramentas e tecnologias foram utilizadas na construção do proje
 Para executar este projeto localmente, siga os passos abaixo. Você precisará ter o [Node.js](https://nodejs.org/en/) e o [Git](https://git-scm.com/) instalados em sua máquina.
 
 ```bash
-# 1. Clone
+# 1. Clone o repositório
+$ git clone [https://github.com/EduardoHCER/sistemaBarbearia.git](https://github.com/EduardoHCER/sistemaBarbearia.git)
+
+# 2. Navegue até o diretório do projeto
+$ cd sistemaBarbearia
+
+# 3. Instale as dependências
+$ npm install
+
+# 4. (Apenas na primeira vez) Configure o banco de dados
+# Este comando cria o arquivo do banco e insere os dados de exemplo.
+$ node setupDatabase.js
+
+# 5. Execute o projeto em ambiente de desenvolvimento local
+# Será necessário instalar a Vercel CLI, caso ainda não a tenha: npm install -g vercel
+$ vercel dev
+Após executar vercel dev, a aplicação estará rodando localmente, geralmente no endereço http://localhost:3000.
+
+🔗 Endpoints da API
+A API do sistema segue uma arquitetura REST e possui os seguintes endpoints:
+
+Método	Endpoint	Descrição
+GET	/api/servicos	Retorna a lista de todos os serviços disponíveis.
+GET	/api/barbeiros	Retorna a lista de todos os barbeiros.
+GET	/api/agenda	Retorna os horários livres para um barbeiro em uma data.
+POST	/api/agendar	Cria um novo agendamento no banco de dados.
+
+Exportar para as Planilhas
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+
+
+
+Feito com ❤️ por Eduardo Henrique
+
+
+
+
+
+
+
