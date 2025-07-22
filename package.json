@@ -1,24 +1,17 @@
 {
-  "name": "sistemabarbearia",
+  "name": "barbearia-agendamento",
   "version": "1.0.0",
-  "description": "Sistema destinado a auto atendimento para Barbearias.",
-  "main": "index.js",
+  "description": "Sistema de agendamento para barbearia",
+  "main": "api/servicos.js",
   "scripts": {
+    "start": "echo 'Use Vercel CLI para rodar localmente: vercel dev'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EduardoHCER/sistemaBarbearia.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EduardoHCER/sistemaBarbearia/issues"
-  },
-  "homepage": "https://github.com/EduardoHCER/sistemaBarbearia#readme",
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^4.19.2",
+    "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
