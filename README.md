@@ -1,9 +1,3 @@
-Com certeza. Um bom README.md é o cartão de visitas de um projeto no GitHub. Ele deve ser claro, completo e profissional.
-
-A seguir, um modelo de README.md padrão de mercado, totalmente adaptado para o nosso sistema de barbearia.
-
-Dica: Para usar, copie e cole o texto abaixo em um novo arquivo chamado README.md na raiz do seu projeto. Depois, substitua os placeholders (como o link da demonstração) pelas suas informações.
-
 Sistema de Agendamento para Barbearia
 
 
